@@ -22,3 +22,5 @@ data/processed_b2/
 training_log.txt
 outputs/
 EOFproject-a-vision/
+project-b-react/data/
+checkpoints_b2/
