@@ -1,5 +1,3 @@
-cd ~/mlx-project
-cat > .gitignore << 'EOF'
 # Python
 .venv/
 __pycache__/
@@ -8,19 +6,9 @@ __pycache__/
 # Mac
 .DS_Store
 
-# Large model files
-*.safetensors
-..safetensors
-
 # Data files (too large)
-data/images_v2/
-data/processed_v2/
-data/processed_b/
-data/processed_b2/
-
-# Misc
-training_log.txt
-outputs/
-EOFproject-a-vision/
+data/
 project-b-react/data/
-checkpoints_b2/
+project-a-vision/
+outputs/
+training_log.txt
